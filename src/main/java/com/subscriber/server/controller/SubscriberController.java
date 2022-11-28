@@ -26,7 +26,6 @@ public class SubscriberController {
     @RequestMapping(value = "message", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public void getMessage(@RequestBody MessageList messageList) {
-        System.out.println(messageList + "hey!");
         subscriberService.getMessage(messageList);
         return;
     }

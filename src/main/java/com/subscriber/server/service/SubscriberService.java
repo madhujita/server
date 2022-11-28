@@ -4,7 +4,6 @@ import com.subscriber.server.entity.Message;
 import com.subscriber.server.entity.MessageList;
 import org.springframework.stereotype.Service;
 
-//@Sl4j -- TODO: Dependency issue with Intellij? Check later
 @Service
 public class SubscriberService {
 
